@@ -202,4 +202,4 @@ if pdf_file:
     if image_files:
         image_data_urls.extend(uploaded_image_to_data_url(img) for img in image_files)
 
-    st.markdown('---')
+    st.markdown('---')  
